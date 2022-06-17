@@ -30,4 +30,6 @@ PROD DCD 0x40000000; Create a 32-bit variable with label PROD and memory locatio
 ; STRH = Store a 16-bit value from Register to Memory
 ; STRB = Store a 8-bit value from Register to Memory
 
+;----------------------------------------------------------------
+
 	END
