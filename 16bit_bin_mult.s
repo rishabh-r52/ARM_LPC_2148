@@ -16,6 +16,7 @@ N2 DCW 6; Create a 16-bit variable with label N1 and decimal value 6
 
 PROD DCD 0x40000000; Create a 32-bit variable with label PROD and memory location 0x40000000
 
+	END
 ;----------------------------------------------------------------
 
 ; DCD = Define Constant Double : Create a 32-bit variable
@@ -31,5 +32,3 @@ PROD DCD 0x40000000; Create a 32-bit variable with label PROD and memory locatio
 ; STRB = Store a 8-bit value from Register to Memory
 
 ;----------------------------------------------------------------
-
-	END
