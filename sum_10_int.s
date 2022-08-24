@@ -5,7 +5,7 @@ SUMS	ADD R2, #01; R2 will be incremented by 1 each time to represent increasing 
 		ADD R1, R2; R2 will be added to R1 every time SUMS loop runs
 		SUB R0, #01; Subtracting 1 from R0 until it reaches 0
 		CMP R0, #0; Compare R0 to 1
-		BNE SUMS; Loop back to SUMS until R0 != 0
+		BNE SUMS; Loop back to SUMS until register R0 != 0
 		
 B1 B B1
 	END
